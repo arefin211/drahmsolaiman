@@ -79,3 +79,21 @@
     color: var(--accent-color);
     font-weight: 500;
 }
+.top-nav {
+    display: flex;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.75rem;
+    margin-bottom: 2rem;
+    
+    /* --- Add these lines to make it float at the top --- */
+    position: sticky;
+    top: 0;
+    background-color: #ffffff; /* Prevents the text underneath from bleeding through */
+    z-index: 100;              /* Keeps the menu layered on top of all other elements */
+    padding-top: 1rem;         /* Adds a bit of breathing room at the top */
+}
+.html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* Adjust this value if you want more or less space above your headings when jumping */
+}
