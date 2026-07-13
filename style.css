@@ -62,7 +62,7 @@ body {
 }
 
 .name {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--heading-color);
     font-weight: 700;
     line-height: 1.2;
@@ -70,14 +70,14 @@ body {
 }
 
 .tagline {
-    font-size: 0.95rem;
+    font-size: 0.80rem;
     color: var(--text-color);
     margin-bottom: 0.5rem;
 }
 
 .institution {
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 0.80rem;
+    font-weight: 400;
     color: #6a737d;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 1rem;
@@ -116,7 +116,7 @@ body {
     padding: 1rem;
     border-radius: 6px;
     border: 1px solid var(--border-color);
-    font-size: 0.85rem;
+    font-size: 0.75rem;
 }
 
 .meta-item {
@@ -152,8 +152,8 @@ body {
 .top-nav a {
     text-decoration: none;
     color: #6a737d;
-    font-weight: 500;
-    font-size: 0.95rem;
+    font-weight: 400;
+    font-size: 0.90rem;
     transition: color 0.2s ease;
 }
 
@@ -179,12 +179,12 @@ body {
 
 .section p {
     margin-bottom: 1rem;
-    font-size: 1.05rem;
+    font-size: 1.00rem;
     text-align: justify;
 }
 
 .section-sub {
-    font-size: 0.95rem;
+    font-size: 0.80rem;
     color: #6a737d;
     margin-bottom: 1.5rem !important;
     font-style: italic;
@@ -197,7 +197,7 @@ body {
 
 .section li {
     margin-bottom: 0.5rem;
-    font-size: 1.05rem;
+    font-size: 1.00rem;
 }
 
 /* Dashboard Matrix Cards */
@@ -222,19 +222,19 @@ body {
 }
 
 .card-icon {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--accent-color);
     margin-bottom: 0.75rem;
 }
 
 .card h3 {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     color: var(--heading-color);
     margin-bottom: 0.5rem;
 }
 
 .card p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-bottom: 0;
     line-height: 1.4;
 }
@@ -249,7 +249,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 1.5rem 0;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
 }
 
 th, td {
@@ -281,7 +281,7 @@ tr:hover td {
 }
 
 .pub-meta {
-    font-size: 0.85rem;
+    font-size: 0.80rem;
     font-weight: 600;
     color: var(--accent-color);
     text-transform: uppercase;
@@ -290,14 +290,14 @@ tr:hover td {
 }
 
 .pub-title {
-    font-size: 1.05rem;
+    font-size: 1.00rem;
     font-weight: 600;
     color: var(--heading-color);
     margin-bottom: 0.35rem;
 }
 
 .pub-authors {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #6a737d;
 }
 
@@ -318,14 +318,14 @@ tr:hover td {
 }
 
 .res-header h3 {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     color: var(--heading-color);
     font-weight: 600;
     line-height: 1.4;
 }
 
 .badge {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 600;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
@@ -337,7 +337,7 @@ tr:hover td {
 .grant-low { background: #f1f2f4; color: #3d4148; }
 
 .res-meta {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     margin-top: 0.5rem;
     color: #6a737d;
 }
@@ -370,13 +370,13 @@ tr:hover td {
 }
 
 .timeline-item h4 {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     color: var(--heading-color);
     font-weight: 600;
 }
 
 .time-span {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: var(--accent-color);
     font-weight: 500;
     display: block;
@@ -384,7 +384,7 @@ tr:hover td {
 }
 
 .timeline-item p {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     color: var(--text-color);
 }
 
@@ -393,7 +393,7 @@ tr:hover td {
     border-top: 1px solid var(--border-color);
     padding-top: 1.5rem;
     margin-top: 5rem;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: #6a737d;
     display: flex;
     justify-content: space-between;
